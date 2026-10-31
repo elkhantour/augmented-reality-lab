@@ -1,0 +1,33 @@
+# Ignore everything
+*
+
+# Allow directories to be traversed
+!*/
+
+# Allow C# scripts and their .meta files
+!*.cs
+!*.cs.meta
+!*.asmdef
+!*.asmdef.meta
+
+# Allow folder .meta files so folder GUIDs stay consistent
+!*.meta
+
+# Keep git config files
+!.gitignore
+!.gitattributes
+
+# Never track Unity-generated folders
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/MemoryCaptures/
+/.vs/
+/.idea/
+/.vscode/
+*.csproj
+*.sln
